@@ -1,0 +1,218 @@
+/************************************************************************************
+RESET
+*************************************************************************************/
+html, body, address, blockquote, div, dl, form, h1, h2, h3, h4, h5, h6, ol, p, pre, table, ul,
+dd, dt, li, tbody, td, tfoot, th, thead, tr, button, del, ins, map, object,
+a, abbr, acronym, b, bdo, big, br, cite, code, dfn, em, i, img, kbd, q, samp, small, span,
+strong, sub, sup, tt, var, legend, fieldset {
+	margin: 0;
+	padding: 0;
+}
+
+img, fieldset {
+	border: 0;
+}
+
+/* set image max width to 100% */
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto; /* ie8 */
+}
+
+/* set html5 elements to block */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
+    display: block;
+}
+body{
+	margin:0px;
+	padding:0px;
+	width:100%;
+	height:100%;
+
+}
+
+#page{
+	background-color:#fff;
+	padding-bottom:22px; 
+	height:100%; 
+	width:100%;
+ }
+header{
+	background:#434343;
+}
+
+#main{
+width:1000px;
+margin: auto;
+background-image:url("BG.png");
+background-repeat:repeat;
+padding-bottom:11px;
+}
+#logo_Header
+{
+width:1000px;
+margin:auto;
+/*padding:10px 0px;*/
+position:relative;
+background:url("SearchBg.png") repeat scroll 0 0 transparent;
+}
+#logo img
+{
+vertical-align:middle;
+padding:0 25px 0 12px;
+}
+#items_btn{
+padding-left:70px;
+}
+ul#menu
+{
+ list-style-type:none;
+}
+ul#menu li
+{
+ display:inline;
+}
+#searchbox{
+	background:url("OnePxlForSearchBox.png") repeat;
+	width: 10%;
+	height: 32px;
+	border: none;
+	padding-bottom: 3px;
+	font-family:Arial;
+	}
+#user_btn{
+margin-left: 10px;}
+#name
+{
+	color:white;margin-left:25px;
+	font-family:Arial;
+}
+#items_btn input
+{
+	vertical-align:middle;
+	margin:3px 0px 0px 20px;
+	background:url("FeedBg.png") no-repeat;
+	width:20%;
+	height:40px;
+	padding-left:8px;
+	border:none;
+	
+	
+	
+}
+#user_btn 
+{
+	vertical-align: middle;
+	background:url("personal-icon.png") no-repeat;
+	width:60px;
+	height:36px;
+	border:none;
+	}
+#cart_btn{margin-left:-10px;}
+#cart_btn 
+{
+	vertical-align: middle;
+	background:url("cart-icon.png") no-repeat;
+	width:60px;
+	height:36px;
+	border:none;
+}
+#refresh_btn
+{
+	
+}
+ul.mygrid  li
+{
+ list-style-type:none;
+ display:inline;
+}
+#HomeBodyImgOne
+{
+    margin-left:50px;
+    margin-top:15px;
+}
+#HomeBodyImgFour,#HomeBodyImgSeven
+{
+  margin-left:50px;   
+}
+#HomeBodyImgTen
+{
+   margin-left:2px; 
+}
+
+.right
+{
+  float:right;
+}
+.left
+{
+  float:left;
+}
+#home_footer
+{
+	width:1000px;
+	margin:auto;
+	/*height:69px;*/
+	
+}
+
+.home_btn
+{
+	background:url("mainicon-Home.png") no-repeat;
+	width:75px;
+	height:67px;
+	border:none;
+	cursor:pointer;
+	
+}
+.wallpapers_btn
+{
+	background:url("mainicon-Wallpaper.png") no-repeat;
+	width:75px;
+	height:67px;
+	border:none;
+	cursor:pointer;
+}
+.ringtones_btn
+{
+	background:url("mainicon-Ringtone.png") no-repeat;
+	width:75px;
+	height:67px;
+	border:none;
+	cursor:pointer;
+}
+.music_video_btn
+{
+	background:url("mainicon-videos.png") no-repeat;
+	width:75px;
+	height:67px;
+	border:none;
+	cursor:pointer;
+}
+.games_btn
+{
+	background:url("mainicon-Games.png") no-repeat;
+	width:75px;
+	height:67px;
+	border:none;
+	cursor:pointer;
+}
+#footerimages{width:1000px;margin:auto}
+nav#footerimages
+{
+ list-style-type:none;
+ margin-top:0px;
+ background:url("MainTabsBG.png") repeat ;
+}
+nav#footerimages ul li 
+{
+display:inline;
+margin-left:20px;
+vertical-align:baseline;
+}
+footer
+{
+background-color:#383838;
+text-align: center;
+}

@@ -1,0 +1,307 @@
+/************************************************************************************
+RESET
+*************************************************************************************/
+html, body, address, blockquote, div, dl, form, h1, h2, h3, h4, h5, h6, ol, p, pre, table, ul,
+dd, dt, li, tbody, td, tfoot, th, thead, tr, button, del, ins, map, object,
+a, abbr, acronym, b, bdo, big, br, cite, code, dfn, em, i, img, kbd, q, samp, small, span,
+strong, sub, sup, tt, var, legend, fieldset {
+	margin: 0;
+	padding: 0;
+}
+
+img, fieldset {
+	border: 0;
+}
+
+/* set image max width to 100% */
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto; /* ie8 */
+}
+
+/* set html5 elements to block */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
+    display: block;
+}
+body{
+	margin:0px;
+	padding:0px;
+	width:100%;
+	height:100%;
+
+}
+
+#page{
+	background-color:#fff;
+	height:100%; 
+	width:100%;
+ }
+header{
+	background:#434343;
+}
+
+#main{
+width:1000px;
+margin: auto;
+padding-bottom:11px;
+}
+#logo_Header
+{
+width:1000px;
+margin:auto;
+/*padding:10px 0px;*/
+position:relative;
+background:url("SearchBg.png") repeat scroll 0 0 transparent;
+}
+#logo img
+{
+vertical-align:middle;
+padding:0 25px 0 12px;
+}
+#items_btn{
+padding-left:70px;
+}
+ul#menu
+{
+ list-style-type:none;
+}
+ul#menu li
+{
+ display:inline;
+}
+#searchbox{
+	background:url("OnePxlForSearchBox.png") repeat;
+	width: 10%;
+	height: 32px;
+	border: none;
+	padding-bottom: 4px;
+	font-family:Arial;
+	}
+#user_btn{
+margin-left: 10px;}
+#name
+{
+	color:white;margin-left:25px;
+	font-family:Arial;
+}
+#items_btn input
+{
+	vertical-align:middle;
+	margin:3px 0px 0px 20px;
+	background:url("FeedBg.png") no-repeat;
+	width:20%;
+	height:40px;
+	padding-left:8px;
+	border:none;
+	
+	
+	
+}
+#user_btn input
+{
+	vertical-align: middle;
+	background:url("personal-icon.png") no-repeat;
+	width:60px;
+	height:36px;
+	border:none;
+	}
+#cart_btn{margin-left:-10px;}
+#cart_btn input
+{
+	vertical-align: middle;
+	background:url("cart-icon.png") no-repeat;
+	width:60px;
+	height:36px;
+	border:none;
+}
+#cost_details
+{
+	margin:0% 0 0 8%;
+	width:30%;
+	position:relative;
+	float:left;
+}
+#back_btn_div
+{
+	height:0px;
+}
+#back_btn
+{
+	
+	width:30%;
+	background:url("back.png") no-repeat;
+	border:none;
+	height:29px;
+	margin:1% 0 0 8%;
+	
+}
+#cost
+{
+	float:left;
+	font-size:19px;
+	font-weight:bold;
+	margin-top:3.5%;
+}
+#add_cort
+{
+	width:34%;
+	margin:4.5% 0 0 4%;
+	background:url("AddToCart.png") no-repeat;
+	height:23px;
+	border:none;
+	
+}
+#stars
+{
+	margin-top:3.5%;
+}
+#discription
+{
+	width:57%;
+	background-color:#999999;
+	position:relative;
+	float:left;
+}
+ul#discription_nav
+{
+	list-style-type:none;
+}
+#discription_nav{
+background-color:#CCCCCC;
+}
+#fifa_2012
+{
+	float:left;
+	padding:1%;
+	font-weight:bold;
+}
+#heart_icon
+{
+	float:left;
+	padding:1%;
+}
+#chat_icon
+{
+	padding:1%;
+	float:left;
+}
+#twitter_icon
+{
+	margin-left:57%;
+	padding-top:1%;
+}
+#facebook_icon
+{
+	
+}
+#email_icon
+{
+	
+}
+#desc
+{
+	padding:9px 0 0 15px;
+	font-family:arial;
+	font-size:14px;
+}
+ul li
+{
+	list-style-type:none;
+}
+#game_img
+{
+	margin:4% 0 0 8%;
+}
+#imgs_bar
+{
+	float:left;
+	margin-top:1%;
+	width:93%;
+	border-top:2px solid #e7e7e7;
+	padding-top:14px;
+}
+#s_two
+{
+	margin-left:3%;
+}
+#menu_img
+{
+	margin-left:3%;
+}
+.right
+{
+  float:right;
+}
+.left
+{
+  float:left;
+}
+#home_footer
+{
+	width:1000px;
+	margin:auto;
+	height:68px;
+	
+}
+
+.home_btn
+{
+	background:url("mainicon-Home.png") no-repeat;
+	width:75px;
+	height:67px;
+	border:none;
+	cursor:pointer;
+	
+}
+.wallpapers_btn
+{
+	background:url("mainicon-Wallpaper.png") no-repeat;
+	width:75px;
+	height:67px;
+	border:none;
+	cursor:pointer;
+}
+.ringtones_btn
+{
+	background:url("mainicon-Ringtone.png") no-repeat;
+	width:75px;
+	height:67px;
+	border:none;
+	cursor:pointer;
+}
+.music_video_btn
+{
+	background:url("mainicon-videos.png") no-repeat;
+	width:75px;
+	height:67px;
+	border:none;
+	cursor:pointer;
+}
+.games_btn
+{
+	background:url("mainicon-Games.png") no-repeat;
+	width:75px;
+	height:67px;
+	border:none;
+	cursor:pointer;
+}
+#footerimages{width:1000px;margin:auto}
+nav#footerimages
+{
+ list-style-type:none;
+ margin-top:0px;
+ background:url("MainTabsBG.png") repeat ;
+ height:68px;
+}
+nav#footerimages ul li 
+{
+display:inline;
+margin-left:20px;
+vertical-align:baseline;
+}
+footer
+{
+background-color:#383838;
+text-align: center;
+}

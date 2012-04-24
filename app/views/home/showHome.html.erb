@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Home Page</title>
+<meta charset="utf-8">
+<!-- disable iPhone inital scale -->
+<meta name="viewport" content="width=device-width; initial-scale=1.0">
+<!-- media queries css -->
+<link href=media-home.css rel="stylesheet" type="text/css">
+<!-- main css -->
+<link rel="stylesheet" href="style-home.css" type="text/css" media="screen, projection"/>
+<!-- html5.js for IE less than 9 -->
+<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!-- css3-mediaqueries.js for IE less than 9 -->
+<!--[if lt IE 9]>
+	<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+
+</head>
+<body>
+<!--Log div starts-->
+<div id="page">
+
+	<header id="logo_Header">
+	<nav>
+	 <ul id="menu">
+	  <li id="logo"><%=image_tag "mobimall.png" %></li>
+       <li><%=image_tag "Search.png", :id => "left_part",  :style => "vertical-align:middle;" %><input type="search" placeholder="Search Store" id="searchbox"/><%=image_tag "right.png",   :style => "vertical-align:middle;" %></li>
+
+	  <li id="name">Hello, Guest</li>
+	  <li id="items_btn"><input type="button" value="+40 New Feed Items"/></li>
+	  <li>
+			 <input type="button"  id="user_btn"/>
+			 <input type="button"  id="cart_btn"/>
+	  </li>
+	 </ul>
+	</nav>
+	</header>
+<!--Log div ends-->
+<!--Main div starts-->
+	<section id="main">
+		<ul class="mygrid">
+            <li><a href="../details/showDetails"><%= image_tag "fifaicon.png", :id => "HomeBodyImgOne" %></a></li>
+            <li><%= image_tag "freebyicon.png", :id => "HomeBodyImgTwo" %> </li>
+            <li><%= image_tag "videoicon.png", :id => "HomeBodyImgThree" %></li>
+            <li><%= image_tag "ringtones'icon.png", :id => "HomeBodyImgFour" %></li>
+            <li><%= image_tag "wallpapericon.png", :id => "HomeBodyImgFive" %></li>
+            <li><%= image_tag "gameicon.png", :id => "HomeBodyImgSix" %></li>
+		</ul>
+	</section>
+
+<!--Main div Ends-->
+<!--Fooetr div starts-->
+<footer id="home_footer">
+	<nav id="footerimages" >
+	<ul>
+		<li><input type="button" class="home_btn"/></li>
+		<li><input type="button" class="wallpapers_btn"/></li>
+		<li><input type="button" class="ringtones_btn"/></li>
+		<li><input type="button" class="music_video_btn"/></li>
+		<li><input type="button" class="games_btn"/></li>
+	</ul>
+	</nav>
+</footer>
+<!--footer div ends-->
+</div>
+
+</body>
+</html>
