@@ -19,5 +19,5 @@ end
 
 gem 'jquery-rails'
 
-
-
+source :gemcutter
+gem 'sinatra', '1.0'
